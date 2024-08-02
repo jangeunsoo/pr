@@ -1,0 +1,58 @@
+input{padding-bottom:5px;}
+
+.head h1 {
+    position:relative; 
+    font-size:20px; 
+    font-weight:700;  
+    letter-spacing:0px; 
+    text-transform:uppercase; 
+    width:150px; 
+    text-align:center; 
+    margin:auto; 
+    white-space:nowrap; 
+    border:2px solid 
+    #222;padding:5px 11px 3px 11px;
+  }
+  .head h1:before, .head h1:after {
+      background-color: #c50000;
+      position:absolute; 
+      content: '';
+      height: 7px;
+  
+      width: 7px; border-radius:50%;
+      bottom: 12px;
+  }
+  .head h1:before {
+     left:-20px;
+  }
+  .head h1:after {
+     right:-20px;
+  }
+  
+.button {
+    width: 1px;
+    border: 1px;
+}
+
+.mainTb {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+.mainTb tr th {
+    border: 1px solid black;
+} 
+.mainTb td {
+    border: 1px solid black;
+    vertical-align: top;
+    text-입력align: center;
+}
+
+.subTb tr td {
+    border-left: 0 solid black;
+    border-right: 0 solid black;
+    border-top: 0 solid black;
+    border-bottom: 1 solid black;
+}
+
+.tbUp{background-color: yellow;}
